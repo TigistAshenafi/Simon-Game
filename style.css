@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(26, 26, 53);
+} 
+h1{
+    text-align: center;
+    color: bisque;
+    font-family: "Tiny5",cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin: 20px;
+}
+.btn{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#green{
+    background-color: green;
+    width: 200px;
+    height:200px;
+    border: 8px solid black;
+    border-radius: 30px;
+}
+#red{
+    background-color: red;
+    width: 200px;
+    height:200px;
+    border: 8px solid black;
+    border-radius: 30px;
+}
+#yellow{
+    background-color: yellow;
+    width: 200px;
+    height:200px;
+    border: 8px solid black;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+#blue{
+    background-color: blue;
+    width: 200px;
+    height:200px;
+    border: 8px solid black;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
